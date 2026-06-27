@@ -1,3 +1,19 @@
+#' ggplot2 color scale using Shoals Marine Lab palettes
+#'
+#' @param palette Name of the palette.
+#' @param discrete Logical. Should the scale be discrete?
+#' @param reverse Logical. Should the palette order be reversed?
+#' @param ... Additional arguments passed to ggplot2 scale functions.
+#'
+#' @return A ggplot2 scale.
+#' @export
+#'
+#' @examples
+#' library(ggplot2)
+#'
+#' ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
+#'   geom_point(size = 3) +
+#'   scale_color_sml("sunset")
 scale_color_sml <- function(
     palette = "gull",
     discrete = TRUE,
@@ -8,7 +24,7 @@ scale_color_sml <- function(
     colors <- sml_palette(
       name = palette,
       n = n,
-      type = ifelse(discrete, "discrete", "continuous")
+      type = if (discrete) "discrete" else "continuous"
     )
 
     if (reverse) {
@@ -33,6 +49,23 @@ scale_color_sml <- function(
   }
 }
 
+
+#' ggplot2 fill scale using Shoals Marine Lab palettes
+#'
+#' @param palette Name of the palette.
+#' @param discrete Logical. Should the scale be discrete?
+#' @param reverse Logical. Should the palette order be reversed?
+#' @param ... Additional arguments passed to ggplot2 scale functions.
+#'
+#' @return A ggplot2 scale.
+#' @export
+#'
+#' @examples
+#' library(ggplot2)
+#'
+#' ggplot(iris, aes(Species, Sepal.Length, fill = Species)) +
+#'   geom_boxplot() +
+#'   scale_fill_sml("sunset")
 scale_fill_sml <- function(
     palette = "gull",
     discrete = TRUE,
@@ -43,7 +76,7 @@ scale_fill_sml <- function(
     colors <- sml_palette(
       name = palette,
       n = n,
-      type = ifelse(discrete, "discrete", "continuous")
+      type = if (discrete) "discrete" else "continuous"
     )
 
     if (reverse) {
