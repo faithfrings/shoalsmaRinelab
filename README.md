@@ -1,11 +1,9 @@
 
 # shoalsmaRinelab
 
-![](images/shoalsmaRinelab.png)
-
 <!-- badges: start -->
 
-<!-- badges: end -->
+![](images/shoalsmaRinelab.png) <!-- badges: end -->
 
 The goal of the shoalsmaRinelab package is to provide users with custom
 palettes developed from photos taken by students, staff, and faculty of
@@ -107,6 +105,185 @@ ggplot(mpg, aes(x = class, fill = class)) +
 <td width="35%" align="center">
 
 <img src="images/gilly_circle.png" alt="Guillemot" width="220">
+
+Image: [Marshall
+Mumford](https://lh3.googleusercontent.com/sitesv/AA5AbUApo-pb-SbL_u8A8W3OMnmN9PU8jluZCrmOm5vDyzFHNMOMucCoUdexgQrxILqbhx3VQH0ubHh0dgpPEvx197mjsHURTzDgk-Glh2kdyBL0dpwCAZRsL7mWal1mepJ9T_Lv5TxH1knblc8x6PYixKPujSOkArmCzQEJyRXmXan09BDmtxqO__mhy37PPU3uLkc1O9EifL7CNeQjpNz9k9z1Q9pIBfTAlYnwbQ=w1280)
+
+</td>
+
+</tr>
+
+</table>
+
+### Gull
+
+<table>
+
+<tr>
+
+<td width="65%" align="center">
+
+<img src="man/figures/README-gull_pal-1.png" alt="" width="100%" />
+
+</td>
+
+<td width="35%" align="center">
+
+<img src="images/gull_circle.png" alt="Gull" width="220">
+
+Image: [Marshall
+Mumford](https://www.mrm.photography/home/experiences/shoals-marine-lab/surg)
+
+</td>
+
+</tr>
+
+</table>
+
+### Fishes
+
+Inspiration for the fishes palette: winter flounder, short horn sculpin,
+sea raven, cunner, hag fish, cod, mackerel, and pollock
+<table>
+
+<tr>
+
+<td width="65%" align="center">
+
+<img src="man/figures/README-fish_pal-1.png" alt="" width="100%" />
+
+</td>
+
+<td width="35%" align="center">
+
+<img src="images/fish_circle.png" alt="Fishes" width="220">
+
+Image: [Marshall
+Mumford](https://www.mrm.photography/home/experiences/shoals-marine-lab/surg)
+
+</td>
+
+</tr>
+
+</table>
+
+### Intertidal critters
+
+<table>
+
+<tr>
+
+<td width="65%" align="center">
+
+<img src="man/figures/README-intertidal_pal-1.png" alt="" width="100%" />
+
+</td>
+
+<td width="35%" align="center">
+
+<img src="images/intertidal_critters_circle.png" alt="Intertidal critters" width="220">
+
+Image: Marshall Mumford
+
+</td>
+
+</tr>
+
+</table>
+
+### Overcast intertidal
+
+<table>
+
+<tr>
+
+<td width="65%" align="center">
+
+<img src="man/figures/README-ointertidal_pal-1.png" alt="" width="100%" />
+
+</td>
+
+<td width="35%" align="center">
+
+<img src="images/overcast_intertidal_circle.png" alt="Overcast intertidal" width="220">
+
+Image: Jannine Chamorro
+
+</td>
+
+</tr>
+
+</table>
+
+### Trawl
+
+This palette was inspired by organisms captured during an otter trawl.
+Organisms include sculpin, flounder, and lobsters.
+<table>
+
+<tr>
+
+<td width="65%" align="center">
+
+<img src="man/figures/README-trawl_pal-1.png" alt="" width="100%" />
+
+</td>
+
+<td width="35%" align="center">
+
+<img src="images/trawl_circle.png" alt="Trawl" width="220">
+
+Image: Marshall Mumford
+
+</td>
+
+</tr>
+
+</table>
+
+### Food
+
+This palette was inspired by student photos of their meals at the lab.
+The meals were too good not to share!
+<table>
+
+<tr>
+
+<td width="65%" align="center">
+
+<img src="man/figures/README-food_pal-1.png" alt="" width="100%" />
+
+</td>
+
+<td width="35%" align="center">
+
+<img src="images/food_circle.png" alt="Food" width="220">
+
+Image: Elin Bjorklunk Mischler
+
+</td>
+
+</tr>
+
+</table>
+
+### Sunset
+
+<table>
+
+<tr>
+
+<td width="65%" align="center">
+
+<img src="man/figures/README-sunset_pal-1.png" alt="" width="100%" />
+
+</td>
+
+<td width="35%" align="center">
+
+<img src="images/sunset_circle.png" alt="Sunset" width="220">
+
+Image: TBD
 
 </td>
 

@@ -116,7 +116,7 @@ print_pal <- function(x) {
               fill = x,
               colour = "white",
               width = 0.9,
-              height = 0.3) +
+              height = 0.1) +
     theme_void() +
     theme(legend.position = "none")
 
