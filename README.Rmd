@@ -399,6 +399,31 @@ Image: Shoals Marine Lab
 </tr>
 </table>
 
+### Kingsbury
+
+<table>
+<tr>
+<td width="65%" align="center">
+
+```{r kingsbury_pal, echo = FALSE, message=FALSE, warning=FALSE, fig.height=1, fig.width=7}
+kp <- get_pal("kingsbury")
+print_pal(kp)
+```
+
+</td>
+<td width="35%" align="center">
+
+<img src="images/kingsbury_circle.png" alt="Kingsbury" width="220">
+
+Image: Marshall Mumford
+
+</td>
+</tr>
+</table>
+
+
+
+
 ### ouR_team :)
 
 <table>
@@ -452,28 +477,5 @@ Image: Shoals Marine Lab
 
 
 
-
-
-### Kingsbury
-
-<table>
-<tr>
-<td width="65%" align="center">
-
-```{r kingsbury_pal, echo = FALSE, message=FALSE, warning=FALSE, fig.height=1, fig.width=7}
-kp <- get_pal("kingsbury")
-print_pal(kp)
-```
-
-</td>
-<td width="35%" align="center">
-
-<img src="images/kingsbury_circle.png" alt="Kingsbury" width="220">
-
-Image: Marshall Mumford
-
-</td>
-</tr>
-</table>
 
 

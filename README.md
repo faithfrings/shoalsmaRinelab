@@ -317,30 +317,6 @@ Image: Shoals Marine Lab
 
 </table>
 
-### ouR_team :)
-
-<table>
-
-<tr>
-
-<td width="65%" align="center">
-
-<img src="man/figures/README-ouR_team_pal-1.png" alt="" width="100%" />
-
-</td>
-
-<td width="35%" align="center">
-
-<img src="images/ouR_team_circle.png" alt="ouR_team" width="220">
-
-Image: Shoals Marine Lab
-
-</td>
-
-</tr>
-
-</table>
-
 ### Kingsbury
 
 <table>
@@ -358,6 +334,30 @@ Image: Shoals Marine Lab
 <img src="images/kingsbury_circle.png" alt="Kingsbury" width="220">
 
 Image: Marshall Mumford
+
+</td>
+
+</tr>
+
+</table>
+
+### ouR_team :)
+
+<table>
+
+<tr>
+
+<td width="65%" align="center">
+
+<img src="man/figures/README-ouR_team_pal-1.png" alt="" width="100%" />
+
+</td>
+
+<td width="35%" align="center">
+
+<img src="images/ouR_team_circle.png" alt="ouR_team" width="220">
+
+Image: Shoals Marine Lab
 
 </td>
 
