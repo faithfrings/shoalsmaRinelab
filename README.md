@@ -98,23 +98,18 @@ ggplot(mpg, aes(x = class, fill = class)) +
 
 <tr>
 
-<td width="65%" style="vertical-align: middle;">
+<td width="65%" align="center">
 
 <img src="man/figures/README-gilly_pal-1.png" alt="" width="100%" />
 
 </td>
 
-<td width="35%" style="text-align: center; vertical-align: middle;">
+<td width="35%" align="center">
 
-<img src="images/gilly.png"
-     alt="Guillemot"
-     style="width: 220px; height: 220px; object-fit: cover; border-radius: 50%;">
+<img src="images/gilly_circle.png" alt="Guillemot" width="220">
 
 </td>
 
 </tr>
 
 </table>
-
-Image: [Marshall
-Mumford](https://lh3.googleusercontent.com/sitesv/AA5AbUCEhFJmFmLHYVQEUlpqtoZbSee3hftsu8gQEmbyV_oa2cqGs58ch5S6PpazAYbk-k3_QZEWs1oAh-WQK8Fmq1nmFKFlE68-oxWqjneABQMgH2toEvL3Zc00hn05SP4RZSQzzOO3wzeCqza2_WWd7aIG85A0uqw6n2i52_YOSWZSDv_eGifedRhPgXhGgBAb8UCg1hR61VPXLikskmTCIRtd1o7uQqqWZ65AUA=w1280)
