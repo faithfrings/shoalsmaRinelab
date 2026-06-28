@@ -8,8 +8,12 @@
 <!-- badges: end -->
 
 The goal of the shoalsmaRinelab package is to provide users with custom
-palettes developed from landscapes and cuisine from the Shoals Marine
-Lab.
+palettes developed from photos taken by students, staff, and faculty of
+landscapes, flora, fauna and cuisine at the Shoals Marine Laboratory.
+
+A special thank you to Charlotte Tysall for creation of the package logo
+design, and to the R by the Sea students for inspiring the ideas behind
+the logo.
 
 ## Installation
 
