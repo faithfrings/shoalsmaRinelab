@@ -72,13 +72,55 @@ sml_palettes <- list(
 
   gilly = c(
     "#3A3A41",
-    "#E99B9A",
     "#DDDDDF",
     "#837F85",
     "#D42631"
   )
 )
 
+
+#' Select shoalsmaRine lab palette
+#' @description This function returns colour palettes based on shoals marine lab photos
+#' @param palette_name Name of desired palette
+#' @return A vector of hex colour codes
+#' @export
+#' @examples
+#' get_pal("sunset")
+#' get_pal("gilly")
+
+get_pal <- function(palette_name) {
+
+  pal <- sml_palettes[[palette_name]]
+  if (is.null(pal))
+    stop("Whoops! That colour palette does not exist in shoalsmaRinelab :(")
+  pal
+
+}
+
+#' Plot colour palette
+#' @description Plot chosen colour palette from shoalsmaRine lab package
+#' @param x A vector of colours
+#' @return An image showing colours in palette
+#' @export
+#' @import ggplot2
+#' @examples
+#' pardalote <- get_pal("sunset")
+#' print_pal(sunset)
+
+print_pal <- function(x) {
+
+  n <- length(x)
+  df <- data.frame(x = c(1:n), y = rep(1, n))
+  ggplot(df) +
+    geom_tile(aes(x = x, y = y),
+              fill = x,
+              colour = "white",
+              width = 0.9,
+              height = 0.3) +
+    theme_void() +
+    theme(legend.position = "none")
+
+}
 
 #' Return a Shoals Marine Lab color palette
 #'
