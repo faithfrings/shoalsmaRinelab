@@ -1,6 +1,8 @@
 
 # shoalsmaRinelab
 
+![](images/shoalsmaRinelab.png)
+
 <!-- badges: start -->
 
 <!-- badges: end -->
@@ -19,7 +21,7 @@ You can install the development version of shoalsmaRinelab from
 pak::pak("faithfrings/shoalsmaRinelab")
 ```
 
-## Example
+## Examples
 
 You can get a list of the possible palettes using
 `sml_palettes_available` function.
