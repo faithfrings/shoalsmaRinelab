@@ -31,9 +31,11 @@ You can get a list of the possible palettes using
 ``` r
 library(shoalsmaRinelab)
 sml_palettes_available()
-#> [1] "gull"                "overcast_intertidal" "fishes"             
-#> [4] "trawl"               "sunset"              "intertidal_critters"
-#> [7] "food"                "gilly"
+#>  [1] "gull"                "overcast_intertidal" "fishes"             
+#>  [4] "trawl"               "sunset"              "intertidal_critters"
+#>  [7] "food"                "gilly"               "ouR_team"           
+#> [10] "tern"                "kingsbury"           "whale"              
+#> [13] "songbirds"           "lobster_dinner"
 ```
 
 `get_pal` returns the chosen palette as a vector of hex color codes.
@@ -283,7 +285,79 @@ Image: Elin Bjorklunk Mischler
 
 <img src="images/sunset_circle.png" alt="Sunset" width="220">
 
-Image: TBD
+Image: Faith Frings
+
+</td>
+
+</tr>
+
+</table>
+
+### Tern
+
+<table>
+
+<tr>
+
+<td width="65%" align="center">
+
+<img src="man/figures/README-tern_pal-1.png" alt="" width="100%" />
+
+</td>
+
+<td width="35%" align="center">
+
+<img src="images/tern_circle.png" alt="tern" width="220">
+
+Image: Shoals Marine Lab
+
+</td>
+
+</tr>
+
+</table>
+
+### ouR_team :)
+
+<table>
+
+<tr>
+
+<td width="65%" align="center">
+
+<img src="man/figures/README-ouR_team_pal-1.png" alt="" width="100%" />
+
+</td>
+
+<td width="35%" align="center">
+
+<img src="images/ouR_team_circle.png" alt="ouR_team" width="220">
+
+Image: Shoals Marine Lab
+
+</td>
+
+</tr>
+
+</table>
+
+### Kingsbury
+
+<table>
+
+<tr>
+
+<td width="65%" align="center">
+
+<img src="man/figures/README-kingsbury_pal-1.png" alt="" width="100%" />
+
+</td>
+
+<td width="35%" align="center">
+
+<img src="images/kingsbury_circle.png" alt="Kingsbury" width="220">
+
+Image: Marshall Mumford
 
 </td>
 

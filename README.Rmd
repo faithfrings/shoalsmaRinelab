@@ -354,6 +354,7 @@ Image: Elin Bjorklunk Mischler
 
 
 
+
 ### Sunset
 
 <table>
@@ -370,7 +371,51 @@ print_pal(sp)
 
 <img src="images/sunset_circle.png" alt="Sunset" width="220">
 
-Image: TBD
+Image: Faith Frings
+
+</td>
+</tr>
+</table>
+
+### Tern
+
+<table>
+<tr>
+<td width="65%" align="center">
+
+```{r tern_pal, echo = FALSE, message=FALSE, warning=FALSE, fig.height=1, fig.width=7}
+otp <- get_pal("tern")
+print_pal(otp)
+```
+
+</td>
+<td width="35%" align="center">
+
+<img src="images/tern_circle.png" alt="tern" width="220">
+
+Image: Shoals Marine Lab
+
+</td>
+</tr>
+</table>
+
+### ouR_team :)
+
+<table>
+<tr>
+<td width="65%" align="center">
+
+```{r ouR_team_pal, echo = FALSE, message=FALSE, warning=FALSE, fig.height=1, fig.width=7}
+otp <- get_pal("ouR_team")
+print_pal(otp)
+```
+
+</td>
+<td width="35%" align="center">
+
+<img src="images/ouR_team_circle.png" alt="ouR_team" width="220">
+
+Image: Shoals Marine Lab
 
 </td>
 </tr>
@@ -400,5 +445,35 @@ Image: TBD
 
 
 
+
+
+
+
+
+
+
+
+
+### Kingsbury
+
+<table>
+<tr>
+<td width="65%" align="center">
+
+```{r kingsbury_pal, echo = FALSE, message=FALSE, warning=FALSE, fig.height=1, fig.width=7}
+kp <- get_pal("kingsbury")
+print_pal(kp)
+```
+
+</td>
+<td width="35%" align="center">
+
+<img src="images/kingsbury_circle.png" alt="Kingsbury" width="220">
+
+Image: Marshall Mumford
+
+</td>
+</tr>
+</table>
 
 
