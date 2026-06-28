@@ -1,0 +1,63 @@
+---
+output: github_document
+---
+
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# shoalsmaRinelab
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of the shoalsmaRinelab package is to provide users with custom palettes developed from landscapes and cuisine from the Shoals Marine Lab. 
+
+## Installation
+
+You can install the development version of shoalsmaRinelab from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("pak")
+pak::pak("faithfrings/shoalsmaRinelab")
+```
+
+## Example
+
+You can get a list of the possible palettes using `sml_palettes_available` function.
+
+### Continuous example
+
+```{r example}
+library(shoalsmaRinelab)
+library(ggplot2)
+
+ggplot(faithful,
+       aes(x = waiting,
+           y = eruptions,
+           color = eruptions))+
+  geom_point()+
+  scale_color_sml(palette = "sunset",
+                  discrete = FALSE)+
+  theme_bw()
+```
+
+### Discrete example
+
+```{r}
+ggplot(mpg, aes(x = class, fill = class)) + 
+  geom_bar() + 
+  scale_fill_sml(palette = "intertidal_critters",
+                 discrete = TRUE) + 
+  theme_bw()
+```
+
+
+
+
